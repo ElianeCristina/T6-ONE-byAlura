@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Challenge T6 ONE</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <nav class="cabecalho__menu">
+
+            <a class="cabecalho__menu__pg" href="index.html">Home</a>
+            <a class="cabecalho__menu__pg" href="sobre.html">Sobre</a>
+
+        </nav>
+
+    </header>
+    <main>
+        <section class="container">
+            
+            <div class="texto__digite">
+                <textarea class="texto__digite__aqui" placeholder="Digite seu texto aqui!" ></textarea>
+                <div class="texto__digite__alerta">
+                    <P><strong>Atenção:</strong> Digite seu texto em letras minúsculas, sem acentos ou caracteres especiais!</P>
+                </div>
+            
+                <div class="botoes">
+                    <button class="botao__um" onclick="criptografar()">Criptografar</button>
+                    <button class="botao__dois" onclick="desccriptografar()">Descriptografar</button>
+                </div>
+            </div>
+
+            <div class="texto__saida">
+                <textarea class="texto__traduzido" placeholder="Seu código aparecerá aqui" cols="30" rows="10" readonly></textarea>
+            
+                <div class="botao">
+                    <button class="botao__tres" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>Desenvolvido por Eliane Cristina - 2024</footer>
+
+   <script src="./javascript/script.js" defer></script>
+ 
+    
+</body>
+</html>

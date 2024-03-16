@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(19, 84, 165, 0.5) 0%, rgba(4, 24, 50, 0.5) 33.33%, rgba(4, 24, 50, 0.5) 66.67%, rgba(1, 8, 14, 0.5) 100%), url(../img/security-4700815_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste a propriedade para cover para preencher todo o espaço */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho{
+    padding: 2% 30% 0% 32%;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.cabecalho__menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.cabecalho__menu__pg{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.cabecalho__menu__pg:hover{
+    color: darkorange;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 10%;
+    gap: 2rem;
+}
+
+.texto__digite, .texto__saida{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 3px solid darkorange;
+    gap: 2rem;
+    padding: 5%;
+}
+
+.texto__digite{
+    margin: 0% 10% 0% 0%;
+}
+
+.texto__digite__aqui{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    outline: 0;
+    padding: 1rem;
+    text-transform: lowercase;
+}
+
+strong{
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+.texto__saida{
+    margin: 0% 0% 0% 10%;
+    
+}
+
+.texto__traduzido{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    outline: 0;
+    padding: 1rem;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.botao__um, .botao__dois, .botao__tres{
+    border: 2px solid darkorange;
+    border-radius: 15px;
+    color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.botao__um:hover{
+    background-color: brown;
+    color: white;
+}
+
+.botao__dois:hover{
+    background-color: brown;
+    color: white;
+}
+
+.botao__tres:hover{
+    background-color: brown;
+    color: white;
+}
+
+footer{
+    padding: 1%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
