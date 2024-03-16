@@ -88,6 +88,37 @@ p{
     color: white;
 }
 
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.botao__um, .botao__dois, .botao__tres{
+    border: 2px solid darkorange;
+    border-radius: 15px;
+    color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.botao__um:hover{
+    border: 2px solid white;
+    background-color: darkorange;
+    color: white;
+}
+
+.botao__dois:hover{
+    border: 2px solid white;
+    background-color: darkorange;
+    color: white;
+}
+
 .texto__saida{
     margin: 0% 0% 0% 10%;
     
@@ -99,16 +130,7 @@ p{
     font-size: 1rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.486);
-    outline: 0;
     padding: 1rem;
-}
-
-.botoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
 }
 
 .botao{
@@ -125,7 +147,7 @@ p{
 
 }
 
-.botao__um, .botao__dois, .botao__tres{
+.botao__tres{
     border: 2px solid darkorange;
     border-radius: 15px;
     color: darkorange;
@@ -135,18 +157,10 @@ p{
     font-size: 1rem;
     padding: 0.5rem;
 }
-.botao__um:hover{
-    background-color: brown;
-    color: white;
-}
-
-.botao__dois:hover{
-    background-color: brown;
-    color: white;
-}
 
 .botao__tres:hover{
-    background-color: brown;
+    border: 2px solid white;
+    background-color: darkorange;
     color: white;
 }
 

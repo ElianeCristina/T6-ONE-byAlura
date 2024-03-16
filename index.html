@@ -13,43 +13,52 @@
         <nav class="cabecalho__menu">
 
             <a class="cabecalho__menu__pg" href="index.html">Home</a>
+
             <a class="cabecalho__menu__pg" href="sobre.html">Sobre</a>
 
         </nav>
-
     </header>
+
     <main>
+
         <section class="container">
             
             <div class="texto__digite">
+
                 <textarea class="texto__digite__aqui" placeholder="Digite seu texto aqui!" ></textarea>
+
                 <div class="texto__digite__alerta">
+
                     <P><strong>Atenção:</strong> Digite seu texto em letras minúsculas, 
                         sem acentos ou caracteres especiais!</P>
+
                 </div>
             
                 <div class="botoes">
+
                     <button class="botao__um" onclick="criptografar()">Criptografar</button>
+
                     <button class="botao__dois" onclick="desccriptografar()">Descriptografar</button>
+
                 </div>
             </div>
 
             <div class="texto__saida">
-                <textarea class="texto__traduzido" placeholder="Seu código aparecerá aqui" cols="30" rows="10" readonly>
 
-                </textarea>
+                <textarea class="texto__traduzido" placeholder="Nenhuma mensagem foi encontrada.&#10;Digite um texto no espaço ao lado para criptografar ou descriptografar!" cols="30" rows="10" readonly></textarea>
             
                 <div class="botao">
 
                     <div id="texto__saida__alerta">
+
                         <P>Seu texto foi copiado com sucesso</P>
+
                     </div>
 
                     <button class="botao__tres" onclick="copiar()">Copiar</button>
                     
                 </div>
             </div>
-
         </section>
     </main>
 
