@@ -24,7 +24,8 @@
             <div class="texto__digite">
                 <textarea class="texto__digite__aqui" placeholder="Digite seu texto aqui!" ></textarea>
                 <div class="texto__digite__alerta">
-                    <P><strong>Atenção:</strong> Digite seu texto em letras minúsculas, sem acentos ou caracteres especiais!</P>
+                    <P><strong>Atenção:</strong> Digite seu texto em letras minúsculas, 
+                        sem acentos ou caracteres especiais!</P>
                 </div>
             
                 <div class="botoes">
@@ -34,10 +35,18 @@
             </div>
 
             <div class="texto__saida">
-                <textarea class="texto__traduzido" placeholder="Seu código aparecerá aqui" cols="30" rows="10" readonly></textarea>
+                <textarea class="texto__traduzido" placeholder="Seu código aparecerá aqui" cols="30" rows="10" readonly>
+
+                </textarea>
             
                 <div class="botao">
+
+                    <div id="texto__saida__alerta">
+                        <P>Seu texto foi copiado com sucesso</P>
+                    </div>
+
                     <button class="botao__tres" onclick="copiar()">Copiar</button>
+                    
                 </div>
             </div>
 

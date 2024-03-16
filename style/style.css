@@ -6,9 +6,11 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(to bottom, rgba(19, 84, 165, 0.5) 0%, rgba(4, 24, 50, 0.5) 33.33%, rgba(4, 24, 50, 0.5) 66.67%, rgba(1, 8, 14, 0.5) 100%), url(../img/security-4700815_1280.jpg);
+    background: linear-gradient(to bottom, rgba(19, 84, 165, 0.5) 0%, 
+    rgba(4, 24, 50, 0.5) 33.33%, rgba(4, 24, 50, 0.5) 66.67%, rgba(1, 8, 14, 0.5) 100%), 
+    url(../img/security-4700815_1280.jpg);
     background-repeat: no-repeat;
-    background-size: cover; /* Ajuste a propriedade para cover para preencher todo o espaço */
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,6 @@ body {
 .cabecalho__menu__pg:hover{
     color: darkorange;
 }
-
 
 .container{
     width: 100%;
@@ -108,6 +109,20 @@ p{
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+#texto__saida__alerta{
+    display: none;
+    font-size: 1rem;
+
 }
 
 .botao__um, .botao__dois, .botao__tres{
