@@ -41,6 +41,34 @@ body {
     color: darkorange;
 }
 
+.sobre{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 5%;
+    gap: 2rem;
+}
+
+.sobre__forte{
+    color: darkorange;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
 .container{
     width: 100%;
     max-width: 1200px;
@@ -65,10 +93,6 @@ body {
     padding: 5%;
 }
 
-.texto__digite{
-    margin: 0% 10% 0% 0%;
-}
-
 .texto__digite__aqui{
     width: 100%;
     height: 100%;
@@ -84,6 +108,8 @@ strong{
     color: red;
 }
 
+
+
 p{
     color: white;
 }
@@ -97,13 +123,15 @@ p{
 }
 
 .botao__um, .botao__dois, .botao__tres{
+    width: 10rem;
+    height: 3rem;
     border: 2px solid darkorange;
     border-radius: 15px;
     color: darkorange;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
 }
 
@@ -117,11 +145,6 @@ p{
     border: 2px solid white;
     background-color: darkorange;
     color: white;
-}
-
-.texto__saida{
-    margin: 0% 0% 0% 10%;
-    
 }
 
 .texto__traduzido{
@@ -148,13 +171,15 @@ p{
 }
 
 .botao__tres{
+    width: 10rem;
+    height: 3rem;
     border: 2px solid darkorange;
     border-radius: 15px;
     color: darkorange;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 0.5rem;
 }
 
